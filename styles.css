@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+#yesBtn {
+    background: #ff4e50;
+    color: white;
+}
+
+#noBtn {
+    background: #6c757d;
+    color: white;
+}
+
+#gifContainer {
+    margin-top: 20px;
+    display: none;
+}
+
+#noGif {
+    width: 250px;
+}
+
+#videoContainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#loveVideo {
+    width: 90%;
+    max-width: 600px;
+}
